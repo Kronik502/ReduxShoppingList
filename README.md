@@ -18,7 +18,7 @@ Setup:
 To run this project locally, follow these steps:
 
 1. Clone the Repository
-   git clone https://github.com/Kronik502/shopping-list-app.git
+   git clone https://github.com/Kronik502/ReduxShoppingList.git
    cd shopping-list-app
 
 2. Install Dependencies
