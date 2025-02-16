@@ -1,0 +1,140 @@
+/* General container styling for the item */
+.item {
+  background-color: #cf6d1c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(247, 247, 247);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.item:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+/* Item display mode */
+.item-display h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item-display p {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.item-display .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Styling for buttons in view mode */
+.edit-btn,
+.remove-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+}
+
+.edit-btn:hover,
+.remove-btn:hover {
+  background-color: #45a049;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.edit-btn:focus,
+.remove-btn:focus {
+  outline: none;
+  background-color: #388e3c;
+}
+
+.edit-btn:disabled,
+.remove-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Input fields styling when editing */
+.item input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.item input:focus {
+  border-color: #4CAF50;
+}
+
+/* Button container styling when editing */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.button-container button {
+  background-color: #37857bcb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #37857bcb;
+}
+
+.button-container button:focus {
+  outline: none;
+  background-color: #37857bcb;
+}
+
+/* General styling improvements */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.item input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 600px) {
+  .item {
+    padding: 15px;
+  }
+
+  .item input,
+  .button-container button {
+    font-size: 14px;
+  }
+}

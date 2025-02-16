@@ -1,0 +1,87 @@
+/* src/components/AddItem/AddItem.css */
+.add-item-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #cf6d1c;
+    border-radius: 8px;
+    background-color: #37857bcb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-item-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .add-item-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-item-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-item-form input:focus {
+    border-color: #141a15;
+    outline: none;
+  }
+  
+  .add-item-form input::placeholder {
+    color: #888;
+  }
+  
+  .add-item-form button {
+    padding: 12px;
+    background-color: #cf6d1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-item-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-item-form button:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Error or alert styling */
+  .add-item-form .alert {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .add-item-form {
+      padding: 15px;
+    }
+  
+    .add-item-form h2 {
+      font-size: 20px;
+    }
+  
+    .add-item-form input,
+    .add-item-form button {
+      font-size: 14px;
+    }
+  }
+  

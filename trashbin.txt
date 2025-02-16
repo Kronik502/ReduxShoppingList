@@ -1,0 +1,85 @@
+import './ItemList.css';
+ 
+    {
+      "id": "f382",
+      "name": "weed",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    },
+    {
+      "id": "eac3",
+      "name": "weed",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    },
+    {
+      "id": "7061",
+      "name": "weed",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    },
+    {
+      "id": "8f7a",
+      "name": "nbv",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    }
+ 
+reducers
+ 
+reducers
+ 
+Item
+ 
+shoppingListActions
+ 
+// src/reducers/shoppingListReducer.js
+ 
+    {
+      "id": "c5ea",
+      "name": "weed",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    },
+    {
+      "id": "c5da",
+      "name": "weed",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    },
+    {
+      "id": "b026",
+      "name": "weed",
+      "quantity": "2",
+      "description": "qweqwe",
+      "price": "3"
+    }
+ 
+Item
+ 
+  // Format price correctly inside the component, using item prop
+ 
+Item
+ 
+shoppingListReducer
+ 
+Item
+ 
+shoppingListActions
+ 
+store
+ 
+shoppingListSlice
+ 
+shoppingListSlice
+ 
+shoppingListSlice
+ 
+ItemList
+ 

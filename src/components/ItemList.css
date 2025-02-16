@@ -1,0 +1,33 @@
+/* src/components/Item/Item.css */
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #cf6d1c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .item-enter {
+    opacity: 0;
+  }
+  
+  .item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .item-leave {
+    opacity: 1;
+  }
+  
+  .item-leave-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+  }
+  

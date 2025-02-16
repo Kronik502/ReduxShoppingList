@@ -1,0 +1,18 @@
+{
+  "shoppingList": [
+    {
+      "id": "1",
+      "name": "Apples",
+      "quantity": 11,
+      "price": 3.99,
+      "description": "Fresh red apples"
+    },
+    {
+      "id": "2",
+      "name": "Bananas",
+      "quantity": 5,
+      "price": 1.99,
+      "description": "Ripe yellow bananas"
+    }
+  ]
+}
